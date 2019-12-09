@@ -1,0 +1,37 @@
+{
+  "name": {
+    "presence": true,
+    "isUtf8": true
+  },
+  "address": {
+    "presence": true,
+    "isUtf8": true
+  },
+  "stars": {
+    "presence": true,
+    "numericality": {
+      "greaterThanOrEqualTo": 1,
+      "lessThanOrEqualTo": 5
+    }
+  },
+  "contact": {
+    "presence": true,
+    "isUtf8": true
+  },
+  "phone": {
+    "presence": true,
+    "length": {
+      "minimum": 4,
+      "maximum": 100
+    }
+  },
+  "uri": {
+    "presence": true,
+    "url": {
+      "schemas": [
+        "http",
+        "https"
+      ]
+    }
+  }
+}

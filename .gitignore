@@ -1,0 +1,10 @@
+# editor files
+.idea/
+
+# node_modules
+node_modules/
+
+# test files
+./test.html
+./test.json
+hotels.csv
